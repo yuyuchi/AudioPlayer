@@ -5,7 +5,6 @@ const nextBtn = document.querySelector('.next-btn');
 const music = document.getElementById('music');
 const musicList = document.getElementsByTagName('li');
 const progressBar = document.getElementById('progress-bar');
-let musicIsPlaying = false;
 let currentTrack = 0;
 let currentList;
 
