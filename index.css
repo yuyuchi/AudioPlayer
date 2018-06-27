@@ -17,6 +17,9 @@ body{
 .play-btn:hover, .pause-btn:hover{
 	color: #b6b3b3; 
 }
+.wrapper > div {
+	padding-right: 10px;
+}
 ul{
 	list-style: none;
 }
@@ -93,7 +96,7 @@ progress::-webkit-progress-bar {
 }
 .wrapper {
     display: grid;
-    grid-template-columns: 10% 60% 30%;
+    grid-template-columns: 10% 30% 40% 20%;
     /* grid-template-rows: 30px 30px; */
     align-items: left;
 }

@@ -11,15 +11,24 @@ let currentList;
 let tracks = [
 			{
                 "track": 1,
-                "name": "I Won t Hurt You",
+                "name": "I Won't Hurt You",
+                "artist": "The West Coast Pop Art Experimental Band",
                 "duration": "02:23",
                 "url": "https://raw.githubusercontent.com/yuyuchi/AudioPlayer/master/music/I%20Won%20t%20Hurt%20You.mp3"
             },
             {
             	"track": 2,
                 "name": "Ganesha",
+                "artist": "Wah!",
                 "duration": "04:26",
                 "url": "https://raw.githubusercontent.com/yuyuchi/AudioPlayer/master/music/Ganesha.mp3"
+            },
+            {
+            	"track": 3,
+                "name": "Blueless Bird",
+                "artist": "Joni",
+                "duration": "03:26",
+                "url": "https://raw.githubusercontent.com/yuyuchi/AudioPlayer/master/music/Blueless%20Bird.mp3"            	
             }
          	];
  
@@ -30,7 +39,7 @@ function init() {
 	}
 
 	for(let i=0; i<tracks.length; i++){
-		$('ul').append(`<li id="${i}"><div class="wrapper"><div>${tracks[i].track}</div><div>${tracks[i].name}</div><div>${tracks[i].duration}</div></div></li><hr/>`);
+		$('ul').append(`<li id="${i}"><div class="wrapper"><div>${tracks[i].track}</div><div>${tracks[i].name}</div><div>${tracks[i].artist}</div><div>${tracks[i].duration}</div></div></li><hr/>`);
 	}
 
 	for(let musicIndex=0; musicIndex<musicList.length; musicIndex++){
