@@ -11,15 +11,15 @@ let currentList;
 let tracks = [
 			{
                 "track": 1,
-                "name": "Relax Song",
-                "duration": "05:01",
-                "url": "https://ia600703.us.archive.org/3/items/mythium/BS_ATKM.mp3"
+                "name": "I Won t Hurt You",
+                "duration": "02:23",
+                "url": "https://raw.githubusercontent.com/yuyuchi/AudioPlayer/master/music/I%20Won%20t%20Hurt%20You.mp3"
             },
             {
             	"track": 2,
-                "name": "DJ Song",
-                "duration": "00:26",
-                "url": "http://www.alexkatz.me/codepen/music/interlude.mp3"
+                "name": "Ganesha",
+                "duration": "04:26",
+                "url": "https://raw.githubusercontent.com/yuyuchi/AudioPlayer/master/music/Ganesha.mp3"
             }
          	];
  
